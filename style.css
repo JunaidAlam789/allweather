@@ -5,28 +5,18 @@ html, body {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: lightgrey;
+  overflow: visible;
+
 }
 
 .app {
-  height: 100%;
+  background-color: orange;
+  color: lightgrey;
+  height: 25%;
   width: 100%;
   display: flex;
-  flex-direction: column;
-}
-
-.app2 {
-  height: 40%;
-  width: 33%;
-   display: flex;
-   flex-direction: row;
-  
-}
-
-.apptext {
-  height: 33%;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .header {
@@ -36,52 +26,121 @@ body {
 
 .header h1 {
   margin: 0 0 10px 0;
+  
 }
 
 .header select {
   font-size: 1rem;
+} 
+
+.app2 {
+  
+   display: flex;
+   flex-direction: row;
+    
 }
+.app2 img {
+  width: 33%;
+}
+
+.apptext {
+  
+  display: flex;
+  flex-direction: column;
+ 
+  }
+  .apptextwhatwedo  {
+  
+    display: flex;
+    flex-direction: row;
+   
+    }
+
+    .apptextwhatwedo img {
+  
+      float: right;
+     
+      }
+      .pec-img img {
+        width: 30%;
+        padding-left: 450px;
+        padding-top: 20px;
+        
+  
+      }
+    .app-img img {
+        width: 30%;
+          
+        float: center;
+       
+      }
+      .contactus img {
+        
+      width: 100%;
+      
+               
+      }
+
+
+      .contactusflex {
+        
+        display: flex;
+        flex-direction: row;
+               
+      }
+      .contactusflex > div {
+        
+        width: 50%;
+        
+        text-align: center;              
+      }
+
+  .services {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+  }
+  .services li {
+    padding-left: 20px;
+  }
+  
+  .tablediv {
+    padding-left: 100px;
+    
+  }
+  table,
+  td {
+      border: 1px solid #333;
+  }
+  
+  thead,
+  tfoot {
+      background-color: #333;
+      color: #fff;
+  }
 
 .slideshow {
+  
   flex: 1;
-  background-color: white;
+  height: 75%;
   position: relative;
   overflow: hidden;
-  height: 100%;
-  width: 100%;
-}
-/*
- 
-.slide {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-  opacity: 0;
-  transform: scale(1);
-  transition: all .9s ease-out;
+  
+  
 }
 
-.slide:nth-last-child(2) {
-  opacity: 1;
-  transform: scale(1.08);
-}
-*/
 p {
   padding-left: 20px;
 }
 
-h1 {
+h1,h2 {
+  text-align: center;
   padding-left: 20px;
   }
 
 figure {
   opacity: 1;
-  background-image: url('allweather-pic2.png');
+  
   
 }
 
@@ -92,12 +151,17 @@ opacity: 0.75;
 
 /* 
 <div style="background-color: #cb4154; color: lightgrey;" class="app"></div>
+display: flex;
+  flex-direction: column;
 
 */
 #orgtext h2 {
-  color: white;
+  color: black;
   text-align: center;
-  background-color: orange;
+ /* background-color: rgba(255, 166, 0, 0.801); */
   padding-top: 10px;
   padding-bottom: 10px;
+  
+
 }
+

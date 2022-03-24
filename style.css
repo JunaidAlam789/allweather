@@ -13,15 +13,17 @@ body {
 .app {
   background-color: orange;
   color: lightgrey;
-  height: 25%;
-  width: 100%;
+ /* height: 100%;
+  width: 100%;*/
   display: flex;
   flex-direction: row;
 }
 
 .header {
+  /*width: 75%;
+  padding: 20px 0; */
   text-align: center;
-  padding: 20px 0;
+  
 }
 
 .header h1 {

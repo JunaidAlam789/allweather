@@ -63,11 +63,13 @@ body {
       float: right;
      
       }
-      .pec-img img {
-        width: 30%;
-        padding-left: 450px;
-        padding-top: 20px;
-        
+      .pec-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+  
+  
   
       }
     .app-img img {
